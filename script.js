@@ -4,7 +4,7 @@ window.onload = function() {
         e.preventDefault();
         const name = document.getElementById('nameInput').value;
         
-        // Check if the name arbic or not exists (Valdtion)
+        // Check if the name arbic or not exists (validation)
         if (!/^[أ-ي\s]+$/g.test(name)) {
             displayMessage('مش هينفع والله يابيه، اكتب اسمك بالعربي 🚫', true);
         } else {
